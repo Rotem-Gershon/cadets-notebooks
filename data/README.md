@@ -9,9 +9,9 @@ During this period an **AI deterioration model** was rolled out, hospital by hos
 | File | Released | Contents |
 |---|---|---|
 | `cadets_admissions_release1_core.csv` | Day 1 | Patient characteristics, background disease, admission vitals and labs, outcomes (29 columns) |
-| `cadets_admissions_release2_intervention.csv` | Day 4 | Release 1 + `alert_fired`, `early_consult` (31 columns) |
-| `cadets_admissions_release3_full.csv` | Day 6 | Release 2 + `hospital`, `admission_date` (33 columns) |
-| Clinical notes (free text, same patients) | Day 6 | To be produced later |
+| `cadets_admissions_release2_intervention.csv` | Day 2 | Release 1 + `alert_fired`, `early_consult` (31 columns) |
+| `cadets_admissions_release3_full.csv` | Day 5 | Release 2 + `hospital`, `admission_date` (33 columns) |
+| Clinical notes (free text, same patients) | Day 5 | To be produced later |
 
 `patient_id` is the same across all releases, so files can be joined.
 
